@@ -1,0 +1,549 @@
+body{ padding-top: 0px;}
+
+
+
+/* Content Regarding the navbar */
+
+
+.navbar-fixed-top {
+    background: rgba(255, 255, 255, 0);
+    padding-top: 0px;
+    padding-bottom: 13px;
+}
+
+.navbar-default {
+    font-family: 'Helvetica Neue';
+    background-color: rgba(0,0,0,0);
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+    font-size: 20px;
+}
+
+.navbar-default .navbar-header .navbar-brand {
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: 700;
+    color: rgba(255,255,255,1);
+}
+
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
+    color: #fff;
+}
+
+.navbar-default .nav > li>a,
+.navbar-default .nav>li>a:focus {
+    color: #fff;
+}
+
+.navbar-default .nav > li.active>a,
+.navbar-default .nav>li.active>a:focus {
+    color: rgba(0,127,255,0.8)!important;  /* this changes the color for the scroll spy function  */
+    background-color: transparent;
+}
+
+
+.navbar-brand {
+  padding-bottom: 5px;
+  padding-top: none;
+}
+
+
+
+/* Start of the main page for the project */
+
+.jumbotron {
+  background-image:url('../js/images/Brooklyn_bridge.JPG');
+  border-bottom: 1px solid #dbdbdb;
+  height: 750px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:150px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'HelveticaNeue-Light';
+  padding-top: 530px;
+}
+
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+/* Thumnail part to make the images equal heights */
+
+.thumbnail img {
+  min-height:200px; 
+  height:200px;
+}
+
+
+/* About me section */
+
+.about-me {
+  height: 800px;
+  border-bottom: 1px solid #dbdbdb;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.about-me .container-fluid{
+    padding-left: 30px;
+    padding-top: 70px;
+}
+
+.about-me .container-fluid .row {
+  font-family: 'HelveticaNeue-Light';
+  color: #fff;
+  font-size: 18px;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.about-me .container-fluid h1, h2 {
+  font-family: 'HelveticaNeue-Light';
+  color: #fff;
+  margin: auto;
+  text-align: center;
+}
+
+.about-me .container-fluid p {
+  font-family: 'HelveticaNeue-Light';
+  font-size: 14px;
+  color: rgba(255,255,255,0.7);
+  margin: auto;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.about-me .container-fluid .row .selfie img {
+  height: 150px !important;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* This website */
+
+
+
+.this-website {
+  height: 700px;
+  background-color: #fff;
+
+}
+
+.this-website .container-fluid .row h1, 
+.this-website .container h2,
+.this-website .container-fluid .row p {
+  font-family: 'HelveticaNeue-Light';
+  color: #000;
+  text-align: center;
+
+}
+
+.this-website h1 {
+  padding-top: 50px;
+  font-color: #000;
+}
+
+.this-website p {
+  font-size: 20px;
+  padding-top: 70px;
+  font-color: #000;
+}
+
+.this-website .container h2 {
+  padding-top: 30px;
+  font-color: #000;
+  height: 20px;
+  color: #007fff
+}
+
+
+/* Modal Ish */
+
+.modal .vel_modal img {
+  padding-top: 20px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+
+/* Project section */
+
+.simulation h1,
+.analysis h1,
+.design h1 {
+  font-family: 'HelveticaNeue-Light';
+  color: #fff;
+  padding-left: 50px;
+  padding-top: 60px;
+}
+
+/* Design section */
+
+
+/* Neeed to add a fixed height case to the pictures that I show on the carousel*/
+
+.design {
+  background-image:url('../js/images/central_park.JPG');
+  height: 700px;
+  border-bottom: 1px solid #dbdbdb;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+.design .container-fluid .row .container {
+  background-color: rgba(128,128,128,0.5);
+}
+
+/* Simluation section */
+
+.simulation {
+  background-image:url('../js/images/statue_of_liberty.jpeg');
+  height: 700px;
+  border-bottom: 1px solid #dbdbdb;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+.simulation .container-fluid .row .container {
+  background-color: rgba(128,128,128,0.5);
+}
+
+.simulation button > img {
+  max-width:900px;
+}
+
+/* Analysis section */
+
+.analysis {
+  background-image:url('../js/images/water_reflect.jpeg');
+  height: 700px;
+  border-bottom: 1px solid #dbdbdb;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.analysis .container-fluid .row .container {
+  background-color: rgba(128,128,128,0.5);
+}
+
+/* This line keeps my carousel pictures all the same height.  ALthough now they are stretched */
+
+.item img{
+  max-height: 350px;
+  min-height: 300px;
+  max-width: 500px;
+}
+
+.carousel-caption h1 {
+  margin: auto !important;
+  font-size: 40px !important;
+}
+
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+  margin: auto;
+}
+
+.carousel-inner button {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  outline-color: transparent;
+}
+
+.carousel-inner button > img {
+  margin: auto;
+}
+
+.carousel-inner:hover button,
+.carousel-inner:active button,
+.carousel-inner:focus button {
+  background-color: rgba(0,0,0,0.3)
+}
+
+
+/* Contact Section */
+
+
+section#contact {
+    background-color: rgba(0,0,0,0.8);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+section#contact h1 {
+  font-family: 'HelveticaNeue-Light';
+  padding-top: 40px;
+  color: #fff;
+}
+
+section#contact p {
+  padding-top: 80px;
+  color: #fff;
+  font-size: 20px;
+}
+
+/* Footer Section */
+
+footer {
+    padding: 25px 0;
+    text-align: center;
+}
+
+footer span.copyright {
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: "Helvetica Neue";
+    line-height: 40px;
+}
+
+footer ul.quicklinks {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: "Helvetica Neue";
+    line-height: 40px;
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: #222;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #007fff;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+    outline: 0;
+}
+
+.modal img {
+  padding-bottom: 10px;
+  margin: auto;
+}
+
+.modal p {
+  color: #000;
+}
+
+/* Skills section of webpage */
+
+.skills {
+  height: 810px;
+  background-color: #fff;
+}
+
+.skills h1 {
+  font-family: 'HelveticaNeue-Light';
+  color: #000;
+  text-align: left;
+  font-size: 20px;
+  padding-top: 60px;
+}
+
+.skills h2 {
+  font-family: 'HelveticaNeue-Light';
+  color: #000;
+  text-align: left;
+  font-size: 25px;
+  padding-bottom: 10px
+}
+
+/* SKILLS TEST SECTION  */
+
+
+.skillbar {
+  position:relative;
+  display:block;
+  margin-bottom:22px;  /* Changed from 15 */
+  width:100%;
+  background:#eee;
+  height:35px;
+  border-radius:3px;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  -webkit-transition:0.4s linear;
+  -moz-transition:0.4s linear;
+  -ms-transition:0.4s linear;
+  -o-transition:0.4s linear;
+  transition:0.4s linear;
+  -webkit-transition-property:width, background-color;
+  -moz-transition-property:width, background-color;
+  -ms-transition-property:width, background-color;
+  -o-transition-property:width, background-color;
+  transition-property:width, background-color;
+}
+
+.skillbar-title {
+  position:absolute;
+  top:0;
+  left:0;
+  width:170px;
+  font-weight:bold;
+  font-size:13px;
+  color:#ffffff;
+  background:#6adcfa;
+  -webkit-border-top-left-radius:3px;
+  -webkit-border-bottom-left-radius:4px;
+  -moz-border-radius-topleft:3px;
+  -moz-border-radius-bottomleft:3px;
+  border-top-left-radius:3px;
+  border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+  display:block;
+  background:rgba(0, 0, 0, 0.1);
+  padding:0 20px;
+  height:35px;
+  line-height:35px;
+  -webkit-border-top-left-radius:3px;
+  -webkit-border-bottom-left-radius:3px;
+  -moz-border-radius-topleft:3px;
+  -moz-border-radius-bottomleft:3px;
+  border-top-left-radius:3px;
+  border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+  height:35px;
+  width:0px;
+  background:#6adcfa;
+  border-radius:3px;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+  position:absolute;
+  right:10px;
+  top:0;
+  font-size:11px;
+  height:35px;
+  line-height:35px;
+  color:#ffffff;
+  color:rgba(0, 0, 0, 0.4);
+}
+
+@media(min-width:825px) {
+    .navbar-default {
+        border-color: rgba(255,255,255,.3);
+        background-color: transparent;
+    }
+
+    .navbar-default .navbar-header .navbar-brand {
+        color: rgba(255,255,255,0.8);
+    }
+
+    .navbar-default .navbar-header .navbar-brand:hover,
+    .navbar-default .navbar-header .navbar-brand:focus {
+        color: rgba(0,0,0,0.3);
+    }
+
+    .navbar-default .nav > li>a,
+    .navbar-default .nav>li>a:focus {
+        color: rgba(255,255,255,0.8);  /* Good.  This is the default non hover navbar color*/ 
+    }
+
+    .navbar-default .nav > li>a:hover,
+    .navbar-default .nav>li>a:focus:hover {
+        color: rgba(255,255,255,1);  /* Good. This is the defualt navbar hover color. */
+    }
+
+    .navbar-default.affix {
+        border-color: rgba(34,34,34,.05);
+        background-color: rgba(0,0,0,0.5);  /* This changes the background color when navbar drops down  */
+    }
+
+    .navbar-default.affix .navbar-header .navbar-brand {
+        font-size: 10px;
+        color: rgba(0,0,0,0.2);
+    }
+
+    .navbar-default.affix .navbar-header .navbar-brand:hover,
+    .navbar-default.affix .navbar-header .navbar-brand:focus {
+        color: rgba(255,255,255,1);
+    }
+
+    .navbar-default.affix .nav > li>a,
+    .navbar-default.affix .nav>li>a:focus {
+        color: #fff;  /* This changes the default color of navbar font.  Want this to be white */
+    }
+
+    .navbar-default.affix .nav > li>a:hover,
+    .navbar-default.affix .nav>li>a:focus:hover {
+        color: rgba(0,0,0,0.8);
+    }
+
+    .about-me {
+      height: 750px;
+      border-bottom: 1px solid #dbdbdb;
+      background-color: rgba(0,0,0,0.8);
+    }
+}
+
+@media(min-width:530px) {
+    .about-me .container-fluid p {
+        font-family: 'HelveticaNeue-Light';
+        font-size: 17px;
+        color: rgba(255,255,255,0.7);
+        margin: auto;
+        text-align: left;
+        padding-top: 20px;
+    }
+
+ 
+}
+
+/* Shadow Filter experimentation  */
+
+.shadowfilter { filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
+filter: url(shadow.svg#drop-shadow); }
+
